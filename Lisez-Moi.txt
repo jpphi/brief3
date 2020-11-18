@@ -1,0 +1,17 @@
+Base de donnée 'test' crée et interrogeable depuis python. Voir Le Jupiter notebook.
+
+Test de scrapy:
+En Ligne de commande dans le répertoire rech_emploi
+Possibilité d'utiliser le bot seul avec la commande:
+scrapy runspider flashbot.py -o offres_emploi_scrapy.csv  
+pour créer un fichier offres_emploi_scrapy.csv
+
+crawling:
+La commande
+scrapy startproject rech_emploi
+a crée un certains nombres de dossiers et de fichiers.
+La commande scrapy crawl flashbot récupère les données et les place dans la base de données test de mongoDB.
+
+Test de Flask:
+Répertoire flask/flask_test.py
+Ouverture de la bd mongo test, lecture et affichage de la page.
